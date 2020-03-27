@@ -13,16 +13,16 @@ client = pytopiaAPI.Client()
 
 @client.event
 def on_ready():
-    print('Ready!') # This text will be printed when client getting ready.
+    print('Ready!')  # This text will be printed when client getting ready.
 
 
 @client.event
 def on_message(message):
-    print(message) # This function will print every new message.
-    message.channel.send('Hello World!') # Sending a "Hello World" message in message channel.
+    print(message)  # This function will print every new message.
+    message.channel.send('Hello World!')  # Sending a "Hello World" message in message channel.
 
 
-client.run(%YOURUTOPIATOKEN%) # Running client.
+client.run(%YOURUTOPIATOKEN%)  # Running client.
 ```
 
 ## Why `2.0`?
