@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
-import pytopia
+import pytopiaAPI
 
 setup(
-    name=pytopia.__title__,
-    version=pytopia.__version__,
+    name=pytopiaAPI.__title__,
+    version=pytopiaAPI.__version__,
     packages=find_packages(),
     author='Dest0re',
     description='',
