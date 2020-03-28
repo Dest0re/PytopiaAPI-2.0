@@ -28,4 +28,4 @@ client.run(%YOURUTOPIATOKEN%)  # Running client.
 ## Why `2.0`?
 The 1.x version can be found here: https://github.com/Dest0re/PytopiaAPI.
 
-It's no long supported.
+It's no longer supported.
